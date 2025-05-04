@@ -1,4 +1,4 @@
-import {Text, TextInput, View} from "react-native";
+import {Text, TextInput, View, StyleSheet} from "react-native";
 import {useState} from "react";
 
 const TextScreen = ()=>{

@@ -7,4 +7,7 @@ export const ApplicationRoutes = {
     ColorScreen:'ColorScreen',
     SquareScreen:'SquareScreen',
     SquareScreenWithReducer:'SquareScreenWithReducer',
+    BoxScreen:'BoxScreen',
+    RestaurantSearchApp:'RestaurantSearchApp',
+    ResultsShowScreen:'ResultsShowScreen',
 }
