@@ -9,6 +9,7 @@ import SquareScreenWithReducer from "../Section_6_StateManagementInReactComponen
 import BoxScreen from '../Section_7_HowToHandleScreenLayout/BoxScreen'
 import SearchScreen from '../Section_8_PuttingItAllTogether_RestaurantSearchApp/SearchScreen'
 import ResultsShowScreen from '../Section_8_PuttingItAllTogether_RestaurantSearchApp/ResultsShowScreen'
+import IndexScreen from '../Section_12_AdvancedStateManagementWithContext/IndexScreen'
 
 const StackNavigator = createNativeStackNavigator()
 export default function RootNavigator() {
@@ -23,6 +24,8 @@ export default function RootNavigator() {
                 <StackNavigator.Screen name={ApplicationRoutes.BoxScreen} component={BoxScreen}/>
                 <StackNavigator.Screen name={ApplicationRoutes.RestaurantSearchApp} component={SearchScreen}/>
                 <StackNavigator.Screen name={ApplicationRoutes.ResultsShowScreen} component={ResultsShowScreen}/>
+                <StackNavigator.Screen name={ApplicationRoutes.BlogIndexScreen} component={IndexScreen}/>
+
             </StackNavigator.Navigator>
         </NavigationContainer>
     )

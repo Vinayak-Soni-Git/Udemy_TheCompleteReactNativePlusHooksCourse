@@ -41,6 +41,13 @@ export default function Home () {
                 onPress={() => navigation.navigate(ApplicationRoutes.RestaurantSearchApp)}>
                 <Text style={styles.buttonText}>Restaurant Search App</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate(ApplicationRoutes.BlogIndexScreen)}>
+                <Text style={styles.buttonText}>Blog App</Text>
+            </TouchableOpacity>
+
         </View>
     )
 }

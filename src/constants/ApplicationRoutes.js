@@ -1,5 +1,3 @@
-import SquareScreenWithReducer from "../Section_6_StateManagementInReactComponent/SquareScreenWithReducer";
-
 export const ApplicationRoutes = {
     Home:'Home',
     ListBuildingScreen:'ListBuildingScreen',
@@ -10,4 +8,5 @@ export const ApplicationRoutes = {
     BoxScreen:'BoxScreen',
     RestaurantSearchApp:'RestaurantSearchApp',
     ResultsShowScreen:'ResultsShowScreen',
+    BlogIndexScreen:'BlogIndexScreen',
 }
